@@ -1,9 +1,4 @@
-name: base
-channels:
-  - anaconda-fusion
-  - defaults
+name: programming
 dependencies:
-  - conda
   - python=3.7
   - numpy
-prefix: C:\Anaconda3
