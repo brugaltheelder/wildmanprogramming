@@ -1,0 +1,25 @@
+name: base
+channels:
+  - anaconda-fusion
+  - defaults
+dependencies:
+  - conda
+  - python=3.7
+  - menuinst
+  - console_shortcut
+  - powershell_shortcut
+  - conda-env
+  - conda-build
+  - conda-verify
+  - navigator-updater
+  - pulp
+  - pypdf2
+  - ipython
+  - jupyter_core
+  - traitlets
+  - ipykernel
+  - jupyter_client
+  - ipython_genutils
+  - jupyter
+  - numpy
+prefix: C:\Anaconda3
