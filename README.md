@@ -20,11 +20,21 @@ club_exercises_2h
 
 
 # Notes
+time_limit is the number of movements/variations you plan on doing, each assumed to be 1 minute
+
+only_isolation --> if true, only chooses L and R isloation exercises
+
+only_alternating --> if true, only chooses alternating exercises
+
+level_lower_bound and level_upper_bound are bounds on the complexity of movement
+
 order_by_level sorts the exercises in order of least complex to most complex
 
 randomize_RL randomizes if L or R comes first in exercises that have a left and right version. If set to false, it defaults to left-first.
 
 reverse_RL will set R to first for exercise that have L and R components
+
+print_urls will print links to Wildman's videos for each movement
 
 # Disclaimer
 
