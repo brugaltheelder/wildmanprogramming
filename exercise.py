@@ -22,7 +22,30 @@ def get_mace_workout(time_limit, level_lower_bound = 0, level_upper_bound = 10,
                      randomize_RL = True, reverse_RL=False, print_urls=True):
 
     print("generating mace workout")    
-    mace = get_workout(mace_exercises,time_limit, level_lower_bound=level_lower_bound, level_upper_bound=level_lower_bound,
+    mace = get_workout(mace_exercises,time_limit, level_lower_bound=level_lower_bound, level_upper_bound=level_upper_bound,
+                      only_isolation=only_isolation, only_alternating=only_alternating)
+    print_workout(mace,order_by_level=order_by_level, randomize_RL = randomize_RL, reverse_RL=reverse_RL, print_urls=print_urls)
+    round_time = 1 # time in minutes
+    print('total time:{}'.format(round_time* sum([e.count for e in mace])))
+    
+
+def get_1h_club_workout(time_limit, level_lower_bound = 0, level_upper_bound = 10, 
+                only_isolation=False, only_alternating=False, order_by_level=True, 
+                     randomize_RL = True, reverse_RL=False, print_urls=True):
+
+    print("generating 1h club workout")    
+    mace = get_workout(club_exercises_1h,time_limit, level_lower_bound=level_lower_bound, level_upper_bound=level_upper_bound,
+                      only_isolation=only_isolation, only_alternating=only_alternating)
+    print_workout(mace,order_by_level=order_by_level, randomize_RL = randomize_RL, reverse_RL=reverse_RL, print_urls=print_urls)
+    round_time = 1 # time in minutes
+    print('total time:{}'.format(round_time* sum([e.count for e in mace])))
+    
+def get_2h_club_workout(time_limit, level_lower_bound = 0, level_upper_bound = 10, 
+                only_isolation=False, only_alternating=False, order_by_level=True, 
+                     randomize_RL = True, reverse_RL=False, print_urls=True):
+
+    print("generating 2h club workout")    
+    mace = get_workout(club_exercises_2h,time_limit, level_lower_bound=level_lower_bound, level_upper_bound=level_upper_bound,
                       only_isolation=only_isolation, only_alternating=only_alternating)
     print_workout(mace,order_by_level=order_by_level, randomize_RL = randomize_RL, reverse_RL=reverse_RL, print_urls=print_urls)
     round_time = 1 # time in minutes

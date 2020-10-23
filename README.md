@@ -7,16 +7,10 @@ Launch in Binder here:
 
 [Mark Wildman Club Tutorials](https://www.youtube.com/watch?v=Exuf3a7RhYs&list=PLk4oYPJ7TXKgVZH0qykDznDeaAcFImRuS)
 
-You can use the get_workout and print_workout functions to generate a workout that
-may be sorted by difficulty, bounded by difficulty/complexity, and have a time bound (within 1 minute).
+You can use the get_mace_workout, get_1h_club_workout, and get_2h_club_workout functions to generate a workout that
+may be sorted by difficulty, bounded by difficulty/complexity, and have a time bound (within 1 minute). See notes for details.
 
-# Exercise Lists:
-
-mace_exercises
-
-club_exercises_1h
-
-club_exercises_2h
+I added URLs to the mace workouts, will do for the club ones eventually
 
 
 # Notes
