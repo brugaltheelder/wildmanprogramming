@@ -26,3 +26,7 @@ randomize_RL randomizes if L or R comes first in exercises that have a left and 
 
 reverse_RL will set R to first for exercise that have L and R components
 
+# Disclaimer
+
+This was done independently from Wildman Athletica. 
+
