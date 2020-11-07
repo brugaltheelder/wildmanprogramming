@@ -1,5 +1,5 @@
 import numpy as np
-
+from math import floor
 
 class exercise(object):
     def __init__(self, name, type_list, level = 1, url = ''):
@@ -84,6 +84,17 @@ def print_workout(exercise_str_list, order_by_level=False,
             print('level:{}'.format(s.level) +'\t' + e )
         if print_urls:
             print('\turl: {}'.format(s.url))
+
+
+
+def generate_sandbag_table(weight, percent_sand_weight, time_limit_minutes=10, starting_time_minuites = 3,initial_gap_seconds = 10, final_gap_seconds=6):
+    print('Sandbag rountine for {} lb person at {} percent sand weight of {:.1f} lbs'.format(weight, percent_sand_weight, weight*percent_sand_weight))
+    print('Total Min\tDelay(s)\tReps')
+    for i in range(starting_time_minuites,time_limit_minutes):
+        print('{}\t\t{}\t\t{:.0f}'.format(i,initial_gap_seconds,floor(i*60/initial_gap_seconds)))
+    for i in range(initial_gap_seconds-1,final_gap_seconds-1,-1):
+        print('{}\t\t{}\t\t{:.0f}'.format(time_limit_minutes,i,floor(time_limit_minutes*60/i)))
+
 
 mace_exercises = []
 mace_exercises.append(exercise('360',['L','R'], level=1, url='https://youtu.be/TyZ8iYv6Ip0?list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh'))
