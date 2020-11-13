@@ -1,6 +1,6 @@
 # Mark Wildman-based programming randomizer
 
-Launch in Binder here:
+Launch in Binder here (be patient, may take a minute to load up):
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/brugaltheelder/wildmanprogramming/main)
 
 [Mark Wildman Mace Tutorials](https://www.youtube.com/watch?v=2PRpaJERX3E&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh)
