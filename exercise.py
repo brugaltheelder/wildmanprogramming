@@ -137,6 +137,15 @@ mace_exercises.append(exercise('single arm outside mill with same side flip catc
 mace_exercises.append(exercise('single arm inside mill with alt side flip catch (nunchuck flip to change back)',['L','R'], level=5, url='https://www.youtube.com/watch?v=Hmk80iWQHjM&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=29'))
 mace_exercises.append(exercise('single arm outside mill with alt side flip catch',['L','R'], level=5, url='https://www.youtube.com/watch?v=aIxKwvzj9Hk&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=30'))
 mace_exercises.append(exercise('symmetrical stance front circles',['L','R'], level=3, url='https://www.youtube.com/watch?v=ULozVN0nz_U&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=31'))
+mace_exercises.append(exercise('symmetrical stance alternating circles',['L','R'], level=4, url='https://www.youtube.com/watch?v=MsrcRGT0YzA&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=35'))
+mace_exercises.append(exercise('symmetrical stance backward circles',['L','R'], level=3, url='https://www.youtube.com/watch?v=KSja97kaEHY&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=32'))
+mace_exercises.append(exercise('warrior stance front circles',['L','R'], level=3, url='https://www.youtube.com/watch?v=-4GMydVrlSk&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=34'))
+mace_exercises.append(exercise('warrior stance 360 - bent leg same as top hand',['L','R'], level=4, url='https://www.youtube.com/watch?v=IgJXJy3zPGk&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=36'))
+mace_exercises.append(exercise('warrior stance gamma cast - bent leg same as top hand',['L','R'], level=4, url='https://www.youtube.com/watch?v=IgJXJy3zPGk&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=36'))
+mace_exercises.append(exercise('warrior stance 360 - bent leg opposite as top hand',['L','R'], level=4, url='https://www.youtube.com/watch?v=IgJXJy3zPGk&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=36'))
+mace_exercises.append(exercise('warrior stance gamma cast - bent leg opposite as top hand',['L','R'], level=4, url='https://www.youtube.com/watch?v=IgJXJy3zPGk&list=PLk4oYPJ7TXKh050XTrfVFjPtDSeqYCfsh&index=36'))
+
+
 
 
 
