@@ -30,6 +30,16 @@ reverse_RL will set R to first for exercise that have L and R components
 
 print_urls will print links to Wildman's videos for each movement
 
+# Future Work
+
+* Cleaning up the code and writing up a more accurate description of what I'm actuall doing
+* Implement long movement pattern generator (may need some expert input)
+* Combining movement pattern generation with long workout randomization (basically giving the ability to have multiple-move movement patterns and variable time limits for long-form workout generation)
+* Adding in skill-work/movement pattern breakdown exercises (e.g., kneeling clean series, TGU breakdowns, etc) for warmup skillwork
+* Adding in muscle group target areas for balancing workout load (or focusing on an area)
+* Building in EMOM programming to make a fixed number of weeks programming at a time (having auto-incrementing so a large spreadsheet is generated)
+
+
 # Disclaimer
 
 This was done independently from Wildman Athletica. 
