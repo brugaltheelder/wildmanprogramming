@@ -32,7 +32,7 @@ print_urls will print links to Wildman's videos for each movement
 
 # Future Work
 
-* Cleaning up the code and writing up a more accurate description of what I'm actuall doing
+* Cleaning up the code and writing up a more accurate description of what I'm actually doing
 * Implement long movement pattern generator (may need some expert input)
 * Combining movement pattern generation with long workout randomization (basically giving the ability to have multiple-move movement patterns and variable time limits for long-form workout generation)
 * Adding in skill-work/movement pattern breakdown exercises (e.g., kneeling clean series, TGU breakdowns, etc) for warmup skillwork
