@@ -10,7 +10,10 @@ Launch in Binder here (be patient, may take a minute to load up):
 You can use the get_mace_workout, get_1h_club_workout, and get_2h_club_workout functions to generate a workout that
 may be sorted by difficulty, bounded by difficulty/complexity, and have a time bound (within 1 minute). See notes for details.
 
-I added URLs to the mace workouts, will do for the club ones eventually
+I added URLs to the mace workouts, will do for the club ones eventually.
+
+I've added Kettlebell breakout exercises (first ~100 videos from [Mark Wildman Kettlebell Tutorials](https://www.youtube.com/watch?v=RE6CSomDvl8&list=PLk4oYPJ7TXKg4lvvabXEn9BI4c9i696kx&index=1)). The L and R variations just count as 1 time until (unlike mace/club), as it is assumed 
+you'd do your own timing/reps for these.
 
 
 # Notes
