@@ -41,7 +41,8 @@ print_urls will print links to Wildman's videos for each movement
 * Adding in skill-work/movement pattern breakdown exercises (e.g., kneeling clean series, TGU breakdowns, etc) for warmup skillwork
 * Adding in muscle group target areas for balancing workout load (or focusing on an area)
 * Building in EMOM programming to make a fixed number of weeks programming at a time (having auto-incrementing so a large spreadsheet is generated)
-
+* Adding in pickling so you can save your historical workouts
+* Adding in overall programming generation, along with skill exclusions for KB ones you've already done recently
 
 # Disclaimer
 
